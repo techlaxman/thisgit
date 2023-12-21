@@ -15,19 +15,15 @@ public class driver {
 		System.out.println("test 1 executed..");
 		System.out.println("test 1 executed..");
 		System.out.println("test 1 executed..");
-		
 		System.out.println("Laxman.. new branch is created..");
-		
 		System.out.println("test 1");
-
-		
 		System.out.println("Laxman");
-		
 		System.out.println("llaxman branch commit");
-		
 		System.out.println("more branch created...");
-		
 		System.out.println("merge changes....");
+		System.out.println("more");
+
+
 
 	}
 }
