@@ -24,13 +24,9 @@ public class driver {
 		System.out.println("int a conflicting code..");
 		System.out.println("more  code ");
 		System.out.println("testing github");
-<<<<<<< HEAD
-
-=======
 		System.out.println("more branch created...");
 		System.out.println("merge changes....");
 		System.out.println("india");
 		System.out.println("testing github");
->>>>>>> 8d3b1651ba2b8d3fc00133fdbb580150a3e6b6fb
 	}
 }
