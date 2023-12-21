@@ -20,12 +20,10 @@ public class driver {
 		System.out.println("Laxman");
 		System.out.println("llaxman branch commit");
 		System.out.println("more branch created...new creted");
-		System.out.println("merge changes....new code");
+		System.out.println("merge changes....new codes");
 		System.out.println("int a conflicting code..");
 		System.out.println("more  code ");
 		System.out.println("testing github");
-
-
 
 	}
 }
