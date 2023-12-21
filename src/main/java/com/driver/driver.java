@@ -19,10 +19,10 @@ public class driver {
 		System.out.println("test 1");
 		System.out.println("Laxman");
 		System.out.println("llaxman branch commit");
-		System.out.println("more branch created...");
-		System.out.println("merge changes....");
+		System.out.println("more branch created...new creted");
+		System.out.println("merge changes....new code");
 		System.out.println("int a conflicting code..");
-		System.out.println("more");
+		System.out.println("more  code ");
 		System.out.println("testing github");
 
 
