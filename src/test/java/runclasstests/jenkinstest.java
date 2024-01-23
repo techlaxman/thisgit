@@ -1,6 +1,8 @@
 package runclasstests;
 
+import org.testng.annotations.Ignore;
 import org.testng.annotations.Test;
+
 public class jenkinstest {
   
 	@Test

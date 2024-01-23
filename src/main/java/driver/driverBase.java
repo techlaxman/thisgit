@@ -12,11 +12,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-
 import com.constantdatavalues.ConstantsData;
+import com.constantdatavalues.TestClass;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-public class driverBase implements ConstantsData{
+public class driverBase extends TestClass implements ConstantsData   {
 
 	public static WebDriver driver=null;
 	public static  Properties prop=null;
@@ -57,5 +57,9 @@ public class driverBase implements ConstantsData{
 		driver.manage().window().maximize();
 		driver.get(prop.getProperty("url"));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(ConstantsData.implicit_wait_timeput));
+	}
+	public void draw() {
+		// TODO Auto-generated method stub
+		
 	}
 }

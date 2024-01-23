@@ -7,14 +7,21 @@ public class FactoryGenerator {
 
 	@Factory
 	public Object[] generateFactory() {
-		
-		 return new Object[] {new jenkinstest(),
-				                   new jenkinstest(),
-				                   new jenkinstest(),
-				                   new jenkinstest(),
-				                   new jenkinstest()
+	/*	
+	   return new Object[] {new jenkinstest(),
+		                    new jenkinstest(),
+		                    new jenkinstest(),
+		                    new jenkinstest(),
+		                    new jenkinstest()
 				                   };
-	
+	   
+	   */
+		
+		Object[] arr= {new jenkinstest(),
+                new jenkinstest(),
+                new jenkinstest()};
+		
+		return arr;
 		
 	}
 }
